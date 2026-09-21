@@ -85,6 +85,8 @@ This setting can display a waiting screen for connection testing. For a camera v
 | Lens correction | — | Yes |
 | LUT color presets | — | Yes |
 
+Buy a PRO license at [fly.gadgetid.cloud](https://fly.gadgetid.cloud/).
+
 To activate PRO, connect your goggles, open the application's license settings, and enter your license key. Activation requires an internet connection and is tied to the goggles' serial number. After successful activation, the license certificate can be verified offline for those goggles.
 
 ## Image settings

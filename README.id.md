@@ -85,6 +85,8 @@ Pengaturan ini dapat menampilkan layar tunggu untuk menguji koneksi. Untuk gamba
 | Koreksi lensa | — | Ya |
 | Preset warna LUT | — | Ya |
 
+Beli lisensi PRO di [fly.gadgetid.cloud](https://fly.gadgetid.cloud/).
+
 Untuk aktivasi PRO, sambungkan goggles, buka pengaturan lisensi di aplikasi, lalu masukkan license key. Aktivasi membutuhkan internet dan terikat pada serial goggles. Setelah aktivasi berhasil, sertifikat lisensi dapat diverifikasi secara offline pada perangkat tersebut.
 
 ## Pengaturan gambar
