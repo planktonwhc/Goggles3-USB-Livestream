@@ -12,8 +12,11 @@ Versi **1.0.0**:
 
 | Platform | Installer |
 | --- | --- |
-| Windows | [Download Windows Setup](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.0/goggles3-usb-live-1.0.0-Windows-setup.exe) |
-| macOS | [Download macOS Package](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.0/goggles3-usb-live-1.0.0-MacOS.pkg) |
+| Windows (64-bit) | [Download Windows Setup](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.0/goggles3-usb-live-1.0.0-windows-x86_64-setup.exe) |
+| macOS, Apple Silicon (M1 atau lebih baru) | [Download macOS Package (Apple Silicon)](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.0/goggles3-usb-live-1.0.0-macos-aarch64.pkg) |
+| macOS, Intel | [Download macOS Package (Intel)](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.0/goggles3-usb-live-1.0.0-macos-x86_64.pkg) |
+
+Tidak yakin Mac kamu yang mana? Buka menu Apple → **About This Mac / Tentang Mac Ini**. Jika tertulis **Chip** (misalnya Apple M2), unduh paket Apple Silicon. Jika tertulis **Processor / Prosesor** (misalnya Intel Core i7), unduh paket Intel. Paket untuk tipe yang lain tidak akan berjalan.
 
 ## Perangkat yang didukung
 
@@ -35,7 +38,7 @@ Aplikasi menggunakan adapter RNDIS bawaan Windows. Tidak perlu mengganti driver 
 
 ### macOS
 
-1. Unduh dan buka installer `.pkg`.
+1. Unduh installer `.pkg` yang sesuai dengan Mac kamu (Apple Silicon atau Intel, lihat [Download](#download)), lalu buka.
 2. Ikuti petunjuk instalasi.
 3. Buka aplikasi yang sudah terpasang, lalu sambungkan goggles menggunakan kabel USB data.
 

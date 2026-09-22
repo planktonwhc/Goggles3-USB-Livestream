@@ -12,8 +12,11 @@ Version **1.0.0**:
 
 | Platform | Installer |
 | --- | --- |
-| Windows | [Download Windows Setup](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.0/goggles3-usb-live-1.0.0-Windows-setup.exe) |
-| macOS | [Download macOS Package](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.0/goggles3-usb-live-1.0.0-MacOS.pkg) |
+| Windows (64-bit) | [Download Windows Setup](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.0/goggles3-usb-live-1.0.0-windows-x86_64-setup.exe) |
+| macOS, Apple Silicon (M1 or later) | [Download macOS Package (Apple Silicon)](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.0/goggles3-usb-live-1.0.0-macos-aarch64.pkg) |
+| macOS, Intel | [Download macOS Package (Intel)](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.0/goggles3-usb-live-1.0.0-macos-x86_64.pkg) |
+
+Not sure which Mac you have? Open the Apple menu → **About This Mac**. If it lists a **Chip** (for example Apple M2), download the Apple Silicon package. If it lists a **Processor** (for example Intel Core i7), download the Intel package. A package built for the other type will not run.
 
 ## Supported devices and requirements
 
@@ -35,7 +38,7 @@ The application uses Windows' built-in RNDIS adapter support. You do not need to
 
 ### macOS
 
-1. Download and open the `.pkg` installer.
+1. Download the `.pkg` installer that matches your Mac (Apple Silicon or Intel, see [Download](#download)), then open it.
 2. Follow the installation instructions.
 3. Open the installed application, then connect your goggles using a USB data cable.
 
