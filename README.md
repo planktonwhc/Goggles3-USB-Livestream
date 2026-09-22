@@ -83,14 +83,23 @@ This setting can display a waiting screen for connection testing. For a camera v
 | Feature | Trial | PRO |
 | --- | --- | --- |
 | Live view over USB | Yes | Yes |
-| Session duration | 10 minutes per session | No trial session time limit |
+| Session duration | 10 minutes per session | Unlimited |
 | Crop a 4:3 source to 16:9 | Yes | Yes |
 | Lens correction | — | Yes |
 | LUT color presets | — | Yes |
 
 Buy a PRO license at [fly.gadgetid.cloud](https://fly.gadgetid.cloud/).
 
-To activate PRO, connect your goggles, open the application's license settings, and enter your license key. Activation requires an internet connection and is tied to the goggles' serial number. After successful activation, the license certificate can be verified offline for those goggles.
+### Free PRO keys
+
+Try full PRO features free with one of these license keys:
+
+```
+FL-L3J4-F8M9-A2G9-HRRP
+FL-CZBC-8P9Z-CGNT-ZAXD
+```
+
+To activate PRO, connect your goggles, open the application's license settings, and enter a license key — a free one above, or one you purchased. Activation requires an internet connection and is tied to the goggles' serial number. After successful activation, the license certificate can be verified offline for those goggles.
 
 ## Image settings
 

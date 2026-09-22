@@ -83,14 +83,23 @@ Pengaturan ini dapat menampilkan layar tunggu untuk menguji koneksi. Untuk gamba
 | Fitur | Trial | PRO |
 | --- | --- | --- |
 | Live view melalui USB | Ya | Ya |
-| Durasi sesi | 10 menit per sesi | Tanpa batas sesi trial |
+| Durasi sesi | 10 menit per sesi | Tanpa batas |
 | Crop sumber 4:3 ke 16:9 | Ya | Ya |
 | Koreksi lensa | — | Ya |
 | Preset warna LUT | — | Ya |
 
 Beli lisensi PRO di [fly.gadgetid.cloud](https://fly.gadgetid.cloud/).
 
-Untuk aktivasi PRO, sambungkan goggles, buka pengaturan lisensi di aplikasi, lalu masukkan license key. Aktivasi membutuhkan internet dan terikat pada serial goggles. Setelah aktivasi berhasil, sertifikat lisensi dapat diverifikasi secara offline pada perangkat tersebut.
+### License key PRO gratis
+
+Coba semua fitur PRO secara gratis dengan salah satu license key berikut:
+
+```
+FL-L3J4-F8M9-A2G9-HRRP
+FL-CZBC-8P9Z-CGNT-ZAXD
+```
+
+Untuk aktivasi PRO, sambungkan goggles, buka pengaturan lisensi di aplikasi, lalu masukkan license key — salah satu kode gratis di atas, atau yang sudah dibeli. Aktivasi membutuhkan internet dan terikat pada serial goggles. Setelah aktivasi berhasil, sertifikat lisensi dapat diverifikasi secara offline pada perangkat tersebut.
 
 ## Pengaturan gambar
 
