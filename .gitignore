@@ -2,3 +2,4 @@
 *.exe
 release.sh
 hash-update.txt
+product-releases-*.json
