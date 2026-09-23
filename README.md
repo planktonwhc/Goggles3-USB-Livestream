@@ -8,15 +8,14 @@ This repository provides application installers. Source code is not included.
 
 ## Download
 
-Version **1.0.0**:
+Version **1.0.1**:
 
 | Platform | Installer |
 | --- | --- |
-| Windows (64-bit) | [Download Windows Setup](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.0/goggles3-usb-live-1.0.0-windows-x86_64-setup.exe) |
-| macOS, Apple Silicon (M1 or later) | [Download macOS Package (Apple Silicon)](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.0/goggles3-usb-live-1.0.0-macos-aarch64.pkg) |
-| macOS, Intel | [Download macOS Package (Intel)](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.0/goggles3-usb-live-1.0.0-macos-x86_64.pkg) |
+| Windows (64-bit) | [Download Windows Setup](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.1/goggles3-usb-live-1.0.1-windows-x86_64-setup.exe) |
+| macOS (Apple Silicon and Intel) | [Download macOS Package](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.1/goggles3-usb-live-1.0.1-macos-universal.pkg) |
 
-Not sure which Mac you have? Open the Apple menu → **About This Mac**. If it lists a **Chip** (for example Apple M2), download the Apple Silicon package. If it lists a **Processor** (for example Intel Core i7), download the Intel package. A package built for the other type will not run.
+One universal macOS package now covers both Apple Silicon (M1 or later) and Intel Macs -- no need to check which chip your Mac has before downloading.
 
 ## Supported devices and requirements
 
@@ -38,7 +37,7 @@ The application uses Windows' built-in RNDIS adapter support. You do not need to
 
 ### macOS
 
-1. Download the `.pkg` installer that matches your Mac (Apple Silicon or Intel, see [Download](#download)), then open it.
+1. Download the `.pkg` installer (see [Download](#download) -- one universal package works on both Apple Silicon and Intel Macs), then open it.
 2. Follow the installation instructions.
 3. Open the installed application, then connect your goggles using a USB data cable.
 
