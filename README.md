@@ -72,6 +72,14 @@ On the goggles, open **Settings → About → OTG Wired Connection to Computer**
 
 ![OTG Wired Connection to Computer](guide/1.%20Enable%20OTG-wired.png)
 
+When the goggles are connected, they show **OTG Wired Connection -- Connected**:
+
+![OTG Wired Connection: Connected](guide/1.%20Done%20OTG.png)
+
+and an **OTG Wired Connection** notification on the main screen:
+
+![OTG Wired Connection notification](guide/1.%20OTG%20Succes%20Notif.png)
+
 ### 3. Enable LiveView sharing from the 5D button
 
 Press the **5D button** down (towards you) to open the shortcut menu, then turn on **Share Liveview to Mobile Device via Wi-Fi**. The description mentions Wi-Fi, but it is the same sharing path the USB connection uses.
