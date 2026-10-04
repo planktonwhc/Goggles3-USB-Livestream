@@ -60,22 +60,35 @@ sudo xattr -r -d com.apple.quarantine /Applications/Goggles3\ USB\ Live.app
 
 Enter your Mac administrator password when prompted (no characters appear as you type), then open the application again. This removes the quarantine attribute from this application bundle; it does not sign or notarize the application. The command assumes the app is installed at the path shown above.
 
-## Start live view
+## Setup guide
 
-1. Turn on the goggles and aircraft/air unit.
-2. Make sure the camera feed is visible in the goggles.
-3. Enable **LiveView Sharing** from the goggles' shortcut menu: press the 5D button down/toward you, then enable live view sharing. Although the description mentions Wi-Fi, this setting also enables the sharing path used over USB.
-4. Connect the goggles to your computer.
-5. Open the application and press the connect button.
-6. Wait for the video to appear. Use the disconnect button to end the session.
+### 1. Connect the goggles to the computer using USB-C
 
-### Testing without an aircraft
+Connect the goggles' USB-C port to your computer with a cable that supports **data transfer** (a charge-only cable will not work). Connect directly rather than through a hub if you can.
 
-On the goggles, enable:
+### 2. Enable OTG Wired Connection
 
-**Settings → Camera → Advanced Camera Settings → Camera View Recording**
+On the goggles, open **Settings → About → OTG Wired Connection to Computer** and turn it on. If the application shows the goggles as not detected, check this setting first.
 
-This setting can display a waiting screen for connection testing. For a camera view with less OSD, disable **Camera View Recording**. If no camera source is connected, the image may become blank.
+![OTG Wired Connection to Computer](guide/1.%20Enable%20OTG-wired.png)
+
+### 3. Enable LiveView sharing from the 5D button
+
+Press the **5D button** down (towards you) to open the shortcut menu, then turn on **Share Liveview to Mobile Device via Wi-Fi**. The description mentions Wi-Fi, but it is the same sharing path the USB connection uses.
+
+![Share Liveview from the 5D shortcut menu](guide/2.%205D-enable-live-view.png)
+
+### 4. Testing without an aircraft: turn on Camera View Recording
+
+With no aircraft or air unit linked, open **Settings → Camera → Advanced Camera Settings** and turn on **Camera View Recording**. The goggles then send their screen, so you can test the connection without flying.
+
+![Camera View Recording](guide/3.%20enable-camera-view.png)
+
+For a flight view with less on-screen display (OSD), turn **Camera View Recording** off again once the aircraft is linked; with it off and no camera linked, the image stays blank.
+
+### Start the live view
+
+Open the application and press **Connect**. The video appears once the goggles have a camera feed; until then the status shows **Waiting for camera**. Use **Disconnect** to end the session.
 
 ## Trial and PRO
 
@@ -122,7 +135,7 @@ Choose a LUT preset in the image settings to change the color appearance. If vid
 
 | Problem | What to check |
 | --- | --- |
-| Goggles not detected | Make sure the goggles are on, use a USB data cable, and try another USB port. |
+| Goggles not detected | Turn on **OTG Wired Connection to Computer** on the goggles (step 2 of the setup guide), make sure the goggles are on, use a USB data cable, and try another USB port. |
 | Connected but no video | Check LiveView Sharing and the aircraft/air unit connection. For testing without an aircraft, enable Camera View Recording. |
 | Connection fails on Windows | Make sure the RNDIS adapter is available and adapter configuration requiring administrator permission has completed. |
 | Video stutters or shows artifacts | Close other applications accessing the goggles, try a direct USB connection, and test with the LUT disabled. |

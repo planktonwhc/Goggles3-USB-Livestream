@@ -60,22 +60,35 @@ sudo xattr -r -d com.apple.quarantine /Applications/Goggles3\ USB\ Live.app
 
 Masukkan kata sandi administrator Mac saat diminta (karakter tidak terlihat saat diketik), lalu buka kembali aplikasi. Perintah ini menghapus atribut karantina pada bundle aplikasi tersebut; tidak menandatangani atau menotariskan aplikasi. Perintah mengasumsikan aplikasi terpasang pada lokasi di atas.
 
-## Mulai live view
+## Panduan penggunaan
 
-1. Nyalakan goggles dan aircraft/air unit.
-2. Pastikan gambar kamera sudah terlihat di goggles.
-3. Aktifkan **LiveView Sharing** melalui shortcut menu goggles: tekan tombol 5D ke bawah/ke arah pengguna, lalu aktifkan berbagi live view. Walaupun keterangannya menyebut Wi-Fi, pengaturan ini juga digunakan untuk jalur berbagi melalui USB.
-4. Sambungkan goggles ke komputer.
-5. Buka aplikasi dan tekan tombol koneksi.
-6. Tunggu hingga video muncul. Gunakan tombol putus koneksi untuk mengakhiri sesi.
+### 1. Hubungkan goggles ke komputer dengan USB-C
 
-### Menguji tanpa aircraft
+Hubungkan port USB-C goggles ke komputer memakai kabel yang mendukung **transfer data** (kabel khusus charging tidak akan berfungsi). Sebaiknya langsung ke komputer, tanpa hub.
 
-Pada goggles, aktifkan:
+### 2. Aktifkan OTG Wired Connection
 
-**Settings → Camera → Advanced Camera Settings → Camera View Recording**
+Di goggles, buka **Settings → About → OTG Wired Connection to Computer** lalu aktifkan. Kalau aplikasi menyatakan goggles tidak terdeteksi, periksa pengaturan ini lebih dulu.
 
-Pengaturan ini dapat menampilkan layar tunggu untuk menguji koneksi. Untuk gambar kamera yang lebih bersih dari OSD, nonaktifkan **Camera View Recording**. Jika tidak ada sumber kamera yang terhubung, gambar dapat menjadi kosong.
+![OTG Wired Connection to Computer](guide/1.%20Enable%20OTG-wired.png)
+
+### 3. Aktifkan LiveView sharing dari tombol 5D
+
+Tekan **tombol 5D** ke bawah (ke arah Anda) untuk membuka menu pintas, lalu aktifkan **Share Liveview to Mobile Device via Wi-Fi**. Walaupun keterangannya menyebut Wi-Fi, jalur berbagi yang sama juga dipakai koneksi USB.
+
+![Share Liveview dari menu pintas 5D](guide/2.%205D-enable-live-view.png)
+
+### 4. Menguji tanpa aircraft: aktifkan Camera View Recording
+
+Tanpa aircraft atau air unit yang terhubung, buka **Settings → Camera → Advanced Camera Settings** lalu aktifkan **Camera View Recording**. Goggles akan mengirim tampilan layarnya, sehingga koneksi bisa diuji tanpa terbang.
+
+![Camera View Recording](guide/3.%20enable-camera-view.png)
+
+Untuk tampilan terbang dengan OSD yang lebih sedikit, matikan lagi **Camera View Recording** setelah aircraft terhubung; bila dimatikan dan belum ada kamera yang terhubung, gambar akan kosong.
+
+### Mulai live view
+
+Buka aplikasi lalu tekan **Connect**. Video muncul setelah goggles menerima gambar dari kamera; sebelum itu status menampilkan **Waiting for camera**. Tekan **Disconnect** untuk mengakhiri sesi.
 
 ## Trial dan PRO
 
@@ -122,7 +135,7 @@ Pilih preset LUT melalui pengaturan gambar untuk mengubah tampilan warna. Jika v
 
 | Masalah | Yang perlu diperiksa |
 | --- | --- |
-| Goggles tidak terdeteksi | Pastikan goggles menyala, gunakan kabel USB data, lalu coba port USB lain. |
+| Goggles tidak terdeteksi | Aktifkan **OTG Wired Connection to Computer** di goggles (langkah 2 panduan), pastikan goggles menyala, gunakan kabel USB data, lalu coba port USB lain. |
 | Terhubung tetapi video kosong | Periksa LiveView Sharing dan koneksi aircraft/air unit. Untuk pengujian tanpa aircraft, aktifkan Camera View Recording. |
 | Koneksi Windows gagal | Pastikan adapter RNDIS tersedia dan pengaturan adapter yang meminta izin administrator sudah selesai. |
 | Gambar tersendat atau pecah | Tutup aplikasi lain yang mengakses goggles, coba sambungan USB langsung, dan uji dengan LUT nonaktif. |
