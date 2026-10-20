@@ -2,6 +2,35 @@
 
 [English](./CHANGELOG.md) | **Bahasa Indonesia**
 
+## 1.0.3 — 2026-10-20
+
+### Diperbaiki
+
+- **Kamera virtual di Windows 10.** Di 1.0.2 kamera virtual hanya berfungsi di
+  Windows 11; di Windows 10 kamera tidak pernah muncul di OBS, Zoom, atau
+  aplikasi lain. Kini berfungsi di Windows 10 dan Windows 11, di aplikasi
+  64-bit maupun 32-bit.
+- **Urutan membuka kamera virtual.** Membuka OBS atau Zoom sebelum Goggles3 USB
+  Live (atau sebelum kamera virtual diaktifkan) tidak lagi membuat source
+  kosong sampai Anda memilihnya ulang. Kamera menampilkan abu-abu gelap selama
+  belum ada video, lalu otomatis berganti ke gambar live.
+- **Ikon aplikasi di Windows.** Ikon sebelumnya kosong di File Explorer, Start
+  menu, shortcut desktop, dan Settings › Apps. Kini tampil di semua tempat.
+
+### Diubah
+
+- **Kamera virtual kini bernama "Orbit-Virtual Camera"** (sebelumnya
+  "goggles3"). Di OBS, buka source *Video Capture Device* yang sudah ada sekali
+  saja dan pilih **Orbit-Virtual Camera** di daftar Device.
+- Kamera virtual mengeluarkan 1920×1080 pada 30 fps, dengan bar hitam di
+  sekitar gambar goggles. Kamera tersedia selama Goggles3 USB Live terbuka
+  dengan **Settings › Output › Virtual camera** aktif; tanpa video kamera
+  menampilkan abu-abu gelap, dan saat aplikasi berhenti mengirim kamera
+  menampilkan gambar terakhir yang digelapkan.
+- Kamera virtual berfungsi di Zoom, Teams, OBS, Discord, browser, dan aplikasi
+  lain yang memakai webcam, tetapi tidak di aplikasi Camera bawaan Windows.
+- Update dari 1.0.2 di Windows 11 otomatis menghapus kamera lama "goggles3".
+
 ## 1.0.2 — 2026-10-20
 
 ### Sorotan

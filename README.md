@@ -8,12 +8,12 @@ This repository provides application installers. Source code is not included.
 
 ## Download
 
-Version **1.0.2**:
+Version **1.0.3**:
 
 | Platform | Installer |
 | --- | --- |
-| Windows (64-bit) | [Download Windows Setup](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.2/goggles3-usb-live-1.0.2-windows-x86_64-setup.exe) |
-| macOS (Apple Silicon and Intel) | [Download macOS Package](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.2/goggles3-usb-live-1.0.2-macos-universal.pkg) |
+| Windows (64-bit) | [Download Windows Setup](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.3/goggles3-usb-live-1.0.3-windows-x86_64-setup.exe) |
+| macOS (Apple Silicon and Intel) | [Download macOS Package](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.3/goggles3-usb-live-1.0.3-macos-universal.pkg) |
 
 One universal macOS package now covers both Apple Silicon (M1 or later) and Intel Macs -- no need to check which chip your Mac has before downloading.
 

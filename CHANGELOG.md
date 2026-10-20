@@ -2,6 +2,34 @@
 
 **English** | [Bahasa Indonesia](./CHANGELOG.id.md)
 
+## 1.0.3 — 2026-10-20
+
+### Fixed
+
+- **Virtual camera on Windows 10.** In 1.0.2 the virtual camera only worked on
+  Windows 11; on Windows 10 it never appeared in OBS, Zoom or other apps. It
+  now works on both Windows 10 and Windows 11, in 64-bit and 32-bit apps.
+- **Virtual camera start order.** Opening OBS or Zoom before Goggles3 USB Live
+  (or before turning the virtual camera on) no longer leaves the source blank
+  until you re-select it. The camera shows dark grey while no video is
+  available and switches to the live picture by itself.
+- **Windows app icon.** The icon was blank in File Explorer, the Start menu,
+  desktop shortcuts and Settings › Apps. It now shows everywhere.
+
+### Changed
+
+- **The virtual camera is now called "Orbit-Virtual Camera"** (it was
+  "goggles3"). In OBS, open your existing *Video Capture Device* source once
+  and pick **Orbit-Virtual Camera** from the Device list.
+- The virtual camera outputs 1920×1080 at 30 fps, with black bars around the
+  goggles picture. It stays available while Goggles3 USB Live is open with
+  **Settings › Output › Virtual camera** turned on; without video it shows dark
+  grey, and when the app stops sending it shows the last picture, darkened.
+- The virtual camera works in Zoom, Teams, OBS, Discord, browsers and other
+  apps that use webcams, but not in the built-in Windows Camera app.
+- Updating from 1.0.2 on Windows 11 removes the old "goggles3" camera
+  automatically.
+
 ## 1.0.2 — 2026-10-20
 
 ### Highlights

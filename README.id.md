@@ -8,12 +8,12 @@ Repositori ini menyediakan installer aplikasi. Source code tidak disertakan.
 
 ## Download
 
-Versi **1.0.2**:
+Versi **1.0.3**:
 
 | Platform | Installer |
 | --- | --- |
-| Windows (64-bit) | [Download Windows Setup](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.2/goggles3-usb-live-1.0.2-windows-x86_64-setup.exe) |
-| macOS (Apple Silicon dan Intel) | [Download macOS Package](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.2/goggles3-usb-live-1.0.2-macos-universal.pkg) |
+| Windows (64-bit) | [Download Windows Setup](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.3/goggles3-usb-live-1.0.3-windows-x86_64-setup.exe) |
+| macOS (Apple Silicon dan Intel) | [Download macOS Package](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.3/goggles3-usb-live-1.0.3-macos-universal.pkg) |
 
 Satu paket macOS universal sekarang mendukung Apple Silicon (M1 atau lebih baru) maupun Intel -- tidak perlu cek dulu chip Mac kamu sebelum mengunduh.
 
