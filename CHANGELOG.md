@@ -15,6 +15,10 @@
   available and switches to the live picture by itself.
 - **Windows app icon.** The icon was blank in File Explorer, the Start menu,
   desktop shortcuts and Settings › Apps. It now shows everywhere.
+- **In-app update.** After the update is downloaded and its checksum is
+  verified, the app now closes (finishing any recording or stream first)
+  and then opens the installer, so the installer no longer has to replace
+  files that are still in use.
 
 ### Changed
 

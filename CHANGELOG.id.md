@@ -16,6 +16,10 @@
   belum ada video, lalu otomatis berganti ke gambar live.
 - **Ikon aplikasi di Windows.** Ikon sebelumnya kosong di File Explorer, Start
   menu, shortcut desktop, dan Settings › Apps. Kini tampil di semua tempat.
+- **Update dari dalam aplikasi.** Setelah update selesai diunduh dan checksum-nya
+  terverifikasi, aplikasi kini menutup diri (menyelesaikan rekaman atau stream
+  yang berjalan terlebih dahulu), lalu membuka installer, sehingga installer
+  tidak perlu lagi menimpa file yang masih dipakai.
 
 ### Diubah
 
