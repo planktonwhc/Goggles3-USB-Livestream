@@ -8,12 +8,12 @@ Repositori ini menyediakan installer aplikasi. Source code tidak disertakan.
 
 ## Download
 
-Versi **1.0.1**:
+Versi **1.0.2**:
 
 | Platform | Installer |
 | --- | --- |
-| Windows (64-bit) | [Download Windows Setup](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.1/goggles3-usb-live-1.0.1-windows-x86_64-setup.exe) |
-| macOS (Apple Silicon dan Intel) | [Download macOS Package](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.1/goggles3-usb-live-1.0.1-macos-universal.pkg) |
+| Windows (64-bit) | [Download Windows Setup](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.2/goggles3-usb-live-1.0.2-windows-x86_64-setup.exe) |
+| macOS (Apple Silicon dan Intel) | [Download macOS Package](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.2/goggles3-usb-live-1.0.2-macos-universal.pkg) |
 
 Satu paket macOS universal sekarang mendukung Apple Silicon (M1 atau lebih baru) maupun Intel -- tidak perlu cek dulu chip Mac kamu sebelum mengunduh.
 
@@ -115,8 +115,11 @@ Beli lisensi PRO di [fly.gadgetid.cloud](https://fly.gadgetid.cloud/).
 Coba semua fitur PRO secara gratis dengan salah satu license key berikut:
 
 ```
-FL-L3J4-F8M9-A2G9-HRRP
-FL-CZBC-8P9Z-CGNT-ZAXD
+License : FL-CRR8-9DE6-3U2K-FDTT 
+Email : id.hardiyanto@gmail.com
+
+License : FL-FWTC-PZVJ-84GJ-AGEJ
+Email : goggles.pro@mail.com
 ```
 
 Untuk aktivasi PRO, sambungkan goggles, buka pengaturan lisensi di aplikasi, lalu masukkan license key — salah satu kode gratis di atas, atau yang sudah dibeli. Aktivasi membutuhkan internet dan terikat pada serial goggles. Setelah aktivasi berhasil, sertifikat lisensi dapat diverifikasi secara offline pada perangkat tersebut.

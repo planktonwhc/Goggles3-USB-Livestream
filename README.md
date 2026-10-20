@@ -8,12 +8,12 @@ This repository provides application installers. Source code is not included.
 
 ## Download
 
-Version **1.0.1**:
+Version **1.0.2**:
 
 | Platform | Installer |
 | --- | --- |
-| Windows (64-bit) | [Download Windows Setup](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.1/goggles3-usb-live-1.0.1-windows-x86_64-setup.exe) |
-| macOS (Apple Silicon and Intel) | [Download macOS Package](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.1/goggles3-usb-live-1.0.1-macos-universal.pkg) |
+| Windows (64-bit) | [Download Windows Setup](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.2/goggles3-usb-live-1.0.2-windows-x86_64-setup.exe) |
+| macOS (Apple Silicon and Intel) | [Download macOS Package](https://github.com/planktonwhc/Goggles3-USB-Livestream/releases/download/v1.0.2/goggles3-usb-live-1.0.2-macos-universal.pkg) |
 
 One universal macOS package now covers both Apple Silicon (M1 or later) and Intel Macs -- no need to check which chip your Mac has before downloading.
 
@@ -115,8 +115,11 @@ Buy a PRO license at [fly.gadgetid.cloud](https://fly.gadgetid.cloud/).
 Try full PRO features free with one of these license keys:
 
 ```
-FL-L3J4-F8M9-A2G9-HRRP
-FL-CZBC-8P9Z-CGNT-ZAXD
+License : FL-CRR8-9DE6-3U2K-FDTT 
+Email : id.hardiyanto@gmail.com
+
+License : FL-FWTC-PZVJ-84GJ-AGEJ
+Email : goggles.pro@mail.com
 ```
 
 To activate PRO, connect your goggles, open the application's license settings, and enter a license key — a free one above, or one you purchased. Activation requires an internet connection and is tied to the goggles' serial number. After successful activation, the license certificate can be verified offline for those goggles.
