@@ -122,7 +122,11 @@ License : FL-FWTC-PZVJ-84GJ-AGEJ
 Email : goggles.pro@mail.com
 ```
 
-Untuk aktivasi PRO, sambungkan goggles, buka pengaturan lisensi di aplikasi, lalu masukkan license key — salah satu kode gratis di atas, atau yang sudah dibeli. Aktivasi membutuhkan internet dan terikat pada serial goggles. Setelah aktivasi berhasil, sertifikat lisensi dapat diverifikasi secara offline pada perangkat tersebut.
+Untuk aktivasi PRO, buka **Settings › Info & License** di aplikasi, lalu masukkan **alamat email dan license key** — salah satu kode gratis di atas, atau yang sudah dibeli. Goggles tidak perlu tersambung, tetapi aktivasi membutuhkan koneksi internet.
+
+- Lisensi terikat pada **komputer ini, bukan pada goggles**, dan bisa dipakai dengan goggles apa pun.
+- Lisensi dicek secara online setiap kali aplikasi dibuka. Sesi berlisensi berlaku **4 jam** sejak aplikasi dijalankan; halaman License menampilkan sisa waktunya, dan tombol **Start new session** memperbaruinya.
+- Untuk memindahkan lisensi ke komputer lain, cukup aktifkan di komputer tersebut. Komputer tetap terikat selama 7 hari setelah aktivasi; setelah itu, aktivasi di komputer lain akan melepaskannya.
 
 ## Pengaturan gambar
 

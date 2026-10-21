@@ -122,7 +122,11 @@ License : FL-FWTC-PZVJ-84GJ-AGEJ
 Email : goggles.pro@mail.com
 ```
 
-To activate PRO, connect your goggles, open the application's license settings, and enter a license key — a free one above, or one you purchased. Activation requires an internet connection and is tied to the goggles' serial number. After successful activation, the license certificate can be verified offline for those goggles.
+To activate PRO, open **Settings › Info & License** in the application and enter the **email address and license key** — one of the free keys above, or the one you purchased. The goggles do not need to be connected, but activation requires an internet connection.
+
+- A license is tied to **this computer, not to the goggles**, and works with any goggles.
+- The license is checked online each time the application opens. A licensed session lasts **4 hours** from launch; the License page shows the time left, and **Start new session** renews it.
+- To move a license to another computer, simply activate it there. A computer stays bound for 7 days after activation; after that, activating on another computer frees it.
 
 ## Image settings
 
